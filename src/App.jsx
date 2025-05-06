@@ -5,7 +5,7 @@ import Hero from './Hero/Hero';
 import Features from './Features/Features';
 import FarmBenefits from './FarmBenefits/FarmBenefits';
 import Footer from './Footer/Footer';
-import AuthForm from './AuthForm/AuthFOrm';
+import AuthForm from './AuthForm/AuthForm';
 import OngoingActivities from './OngoingActivities/OngoingActivities'; 
 import ActivityDashboard from './ActivityDashboard/ActivityDashboard';
 
