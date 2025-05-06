@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.benefits {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.benefits h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.benefits-content {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  max-width: 400px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.icon {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 2rem; /* Adjust size as needed */
+  margin-bottom: 10px; /* Adjust space between emoji and text */
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #004d26;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 60px 20px;
+  color: #fff;
+}
+
+.cta-text {
+  flex: 1;
+  padding: 40px;
+}
+
+.cta-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-text p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.cta-text button {
+  padding: 12px 24px;
+  background-color: #e0f7e9;
+  border: none;
+  border-radius: 6px;
+  color: #004d26;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-image {
+  flex: 1;
+}
+
+.cta-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .benefits {
+    padding: 40px 10px;
+  }
+
+  .benefits h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .benefits-content {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .benefit {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .cta {
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px 10px;
+  }
+
+  .cta-text {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .cta-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .cta-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .cta-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .cta-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .cta-image img {
+    height: auto;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  .cta-text h2 {
+    font-size: 24px;
+  }
+
+  .cta-text p {
+    font-size: 12px;
+  }
+
+  .cta-text button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
